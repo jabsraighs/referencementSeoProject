@@ -110,7 +110,7 @@ export default function Home() {
         <div className="flex flex-nowrap space-x-20 bg-blue-400">
           <div>
             <h2> Terrain confus </h2>
-            <p> N'hesitez pas à nous contacter pour toute réservation ou questions </p>
+            <p> N&apos;hesitez pas à nous contacter pour toute réservation ou questions </p>
             <p> email@gmail.com </p>
             <p> 0648413121 </p>
           </div>
@@ -129,7 +129,7 @@ export default function Home() {
             <p> FAQ </p>
           </div>
           <div>
-            <h2> Horaires d'ouvertures </h2>
+            <h2> Horaires d&apos;ouvertures </h2>
             <p> lundi-vendredi </p>
             <p> samedi-dimanche </p>
             <p> Jours-féries </p>
