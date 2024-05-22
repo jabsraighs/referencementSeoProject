@@ -16,17 +16,19 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <div>
-        <nav className="">
-          <ul className="flex flex-row space-x-10 place-content-center">
-            <li className="text-sky-400"> Accueil </li>
-            <li> Activites </li>
-            <li> A propos </li>
-            <li> Contact </li>
-          </ul>
-        </nav>
-      </div>
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <header>
+          <nav className="">
+            <ul className="flex flex-row space-x-10 place-content-center">
+              <li className="text-sky-400"> Accueil </li>
+              <li> Activites </li>
+              <li> A propos </li>
+              <li> Contact </li>
+            </ul>
+          </nav>
+        </header>
+        {children}
+      </body>
     </html>
   );
 }
