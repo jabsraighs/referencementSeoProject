@@ -1,139 +1,373 @@
 import Image from 'next/image';
 export default function Home() {
-return (
-  <main className="flex min-h-screen flex-col items-center justify-between p-24">
-  <div>
-      <h1> Bienvenue sur Terrain Confus</h1>
-      <h2>  Bienvenue sur Terrain Confus, un espace unique où la nature, l&apos;aventure et la détente se rencontrent. Que vous soyez à la recherche d&apos;une escapade tranquille ou d&apos;une aventure palpitante, notre terrain a quelque chose à offrir à chacun.</h2>
-    <p>
-    Un Havre de Paix et de Sérénité
-    Terrain Confus est le lieu idéal pour ceux qui cherchent à s&apos;évader du quotidien. Niché au cœur de la nature, notre site offre des paysages pittoresques et des espaces paisibles parfaits pour se ressourcer. Promenez-vous le long de nos sentiers ombragés, écoutez le chant des oiseaux et laissez-vous envelopper par la tranquillité des environs. Nos aires de pique-nique, aménagées avec soin, sont parfaites pour un déjeuner en plein air en famille ou entre amis.
+  return (
+    <main>
+      <div className="relative pt-16 pb-32 flex content-center items-center justify-center"
+        style={{
+          minHeight: "75vh"
+        }}>
+        <div className="absolute top-0 w-full h-full bg-center bg-cover"
+          style={{
+            backgroundImage: "url('https://images.unsplash.com/photo-1527236767782-6820249d9ea0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"
+          }}>
+          <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
+        </div>
+        <div className="container relative mx-auto">
+          <div className="items-center flex flex-wrap">
+            <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
+              <div className="sm:pr-12 pr-0">
+                <h1 className="text-white font-semibold text-3xl sm:text-5xl">
+                  Votre havre de paix en pleine nature
+                </h1>
+                <p className="mt-4 text-md sm:text-lg text-gray-300">
+                  Loin du tumulte du quotidien, découvrez un havre de paix où vous pourrez vous ressourcer en pleine nature. Que vous soyez à la recherche d'une escapade paisible en famille ou d'une aventure exaltante entre amis, Terrain Confus a quelque chose à offrir à chacun.
+                </p>
+              </div>
+            </div>
 
-    Aventurez-vous dans l&apos;Inconnu
-    Pour les amateurs de sensations fortes, Terrain Confus propose une gamme d&apos;activités excitantes. Explorez nos sentiers de randonnée qui serpentent à travers des forêts denses et des collines escarpées. Testez vos compétences sur notre parcours d&apos;accrobranche, ou plongez dans les eaux claires de notre lac pour une baignade rafraîchissante. Nos circuits de VTT et de course à pied sont conçus pour les aventuriers de tous niveaux, garantissant une montée d&apos;adrénaline pour tous.
-
-    Détente et Bien-être
-    Après une journée d&apos;aventure, profitez de nos installations dédiées à la détente et au bien-être. Offrez-vous un moment de relaxation dans notre spa, où des soins et des massages vous attendent pour revitaliser votre corps et votre esprit. Détendez-vous dans nos bains thermaux ou profitez d&apos;une séance de yoga en plein air avec vue sur la nature environnante. Nos hébergements confortables, allant des cabanes rustiques aux lodges de luxe, sont parfaits pour un séjour reposant et mémorable.
-
-    Événements et Activités pour Tous
-    Terrain Confus accueille également divers événements tout au long de l&apos;année, tels que des festivals de musique, des marchés artisanaux et des ateliers de bien-être. Participez à nos ateliers de cuisine locale, apprenez des techniques de survie en pleine nature ou rejoignez nos randonnées guidées pour découvrir la faune et la flore de la région.
-
-    Réservez Votre Séjour
-    Prêt à découvrir tout ce que Terrain Confus a à offrir ? Réservez votre séjour dès aujourd&apos;hui et préparez-vous à vivre une expérience inoubliable. Notre équipe dévouée est là pour s&apos;assurer que chaque visiteur repart avec des souvenirs précieux et une envie de revenir. 
-      
-   </p>
-   </div>
-    <div id="content" className=" flex grid gap-x-8 gap-y-4 grid-cols-3">
-         
-     
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-          <Image className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt=" " />
-        </a>
-        <div className="p-5">
-          <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Les Terrains Confus: Naviguer dans l&apos;Incertitude </h5>
-          </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">La notion de &quot;terrains confus&quot; réfère aux zones d&apos;incertitude ou de complexité dans divers domaines, qu&apos;il s&apos;agisse de technologie, de droit, de psychologie ou de tout autre champ.</p>
-          <a href="/articleOne" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Read more
-            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-            </svg>
-          </a>
+          </div>
         </div>
-      </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-          <Image className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
-        </a>
-        <div className="p-5">
-          <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-          </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-          <a href="/articleTwo" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Read more
-            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-          <Image className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
-        </a>
-        <div className="p-5">
-          <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-          </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-          <a href="/articleThree" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Read more
-            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-          <Image className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
-        </a>
-        <div className="p-5">
-          <a href="#">     
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-          </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-          <a href="/articleFour" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Read more
-            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-          <Image className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
-        </a>
-        <div className="p-5">
-          <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-          </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-          <a href="/articleFive" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Read more
-            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-            </svg>
-          </a>
-        </div>
-      </div>
-      <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-        <a href="#">
-          <Image className="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
-        </a>
-        <div className="p-5">
-          <a href="#">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy technology acquisitions 2021</h5>
-          </a>
-          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.</p>
-          <a href="/articleSix" className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-            Read more
-            <svg className="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
-            </svg>
-          </a>
+        <div
+          className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+          style={{ height: "70px" }}
+        >
+          <svg
+            className="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="text-gray-300 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
         </div>
       </div>
 
-    </div>
-      
+      <section className="pb-20 bg-gray-300 -mt-24">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap">
+            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="px-4 py-5 flex-auto">
+                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                    <i className="fas fa-award"></i>
+                  </div>
+                  <h6 className="text-xl font-semibold">Profitez d'une large gamme d'activités</h6>
+                  <p className="mt-2 mb-4 text-gray-600">
+                    En plein air : randonnée, vélo, kayak, escalade... ou accordez-vous un moment de détente au spa ou au bord de la piscine.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="w-full md:w-4/12 px-4 text-center">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="px-4 py-5 flex-auto">
+                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-gray-400">
+                    <i className="fas fa-retweet"></i>
+                  </div>
+                  <h6 className="text-xl font-semibold">
+                    Hébergement confortable et convivial
+                  </h6>
+                  <p className="mt-2 mb-4 text-gray-600">
+                    Bungalows, chalets, tentes... trouvez le logement qui correspond le mieux à vos besoins et à votre budget.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+              <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
+                <div className="px-4 py-5 flex-auto">
+                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
+                    <i className="fa-brands fa-intercom"></i>
+                  </div>
+                  <h6 className="text-xl font-semibold">
+                    Un accueil chaleureux et personnalisé
+                  </h6>
+                  <p className="mt-2 mb-4 text-gray-600">
+                    Notre équipe passionnée vous attend. Nous sommes là pour vous aider à créer un séjour inoubliable.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
 
 
+          <div className="flex flex-wrap items-center mt-32">
+            <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
+              <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
+                <i className="fas fa-user-friends text-xl"></i>
+              </div>
+              <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                Découvrez un monde d'aventures à Terrain Confus
+              </h3>
+              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
+                Terrain Confus est bien plus qu'un simple lieu de villégiature. C'est un havre de paix où vous pourrez vous reconnecter avec la nature et vivre des aventures extraordinaires.
+              </p>
+              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
+                Que vous soyez à la recherche d'une escapade en famille ou d'une virée entre amis, nous avons tout ce qu'il vous faut pour vous créer un séjour inoubliable.
+              </p>
+              <a
+                href="#"
+                className="font-bold text-gray-800 mt-8"
+              >
+                Réservez votre séjour dès aujourd'hui !
+              </a>
+            </div>
 
-  </main>
-);
+            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
+              <div className="relative flex flex-col min-w-0 break-wordss w-full mb-6 shadow-lg rounded-lg bg-gray-600">
+                <img
+                  alt="..."
+                  src="https://images.unsplash.com/photo-1534570122623-99e8378a9aa7?w=600&h=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1bW1lcnxlbnwwfHwwfHx8MA%3D%3D"
+                  className="w-full align-middle rounded-t-lg"
+                />
+                <blockquote className="relative p-8 mb-4">
+                  <svg
+                    preserveAspectRatio="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 583 95"
+                    className="absolute left-0 w-full block"
+                    style={{
+                      height: "95px",
+                      top: "-94px"
+                    }}
+                  >
+                    <polygon
+                      points="-30,95 583,95 583,65"
+                      className="text-gray-600 fill-current"
+                    ></polygon>
+                  </svg>
+                  <h4 className="text-xl font-bold text-white">
+                    Des services de qualités
+                  </h4>
+                  <p className="text-md font-light mt-2 text-white">
+                    Évadez-vous dans un monde d'aventures et de détente à Terrain Confus, où nature, activités et relaxation se rencontrent.
+                  </p>
+                </blockquote>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section className="relative py-20">
+        <div
+          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style={{ height: "80px" }}
+        >
+          <svg
+            className="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="text-white fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+
+        <div className="container mx-auto px-4">
+          <div className="items-center flex flex-wrap">
+            <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
+              <img
+                alt="..."
+                className="max-w-full rounded-lg shadow-lg"
+                src="https://images.unsplash.com/photo-1519821172144-4f87d85de2a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9yZXN0fGVufDB8MXwwfHx8MA%3D%3D"
+              />
+            </div>
+            <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
+              <div className="md:pr-12">
+                <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-300">
+                  <i className="fas fa-rocket text-xl"></i>
+                </div>
+                <h3 className="text-3xl font-semibold">
+                  Une expérience unique
+                </h3>
+                <p className="mt-4 text-lg leading-relaxed text-gray-600">
+                  Chez Terrain Confus, nous croyons que chaque visiteur mérite une expérience exceptionnelle. Que vous cherchiez à vous échapper de la routine quotidienne, à explorer des paysages naturels magnifiques, ou à vivre des aventures palpitantes, notre espace vous offre tout cela et bien plus encore.
+                </p>
+                <ul className="list-none mt-6">
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-200 mr-3">
+                          <i className="fas fa-fingerprint"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-gray-600">
+                          Nature Préservée et Sentiers Pittoresques
+                        </h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-200 mr-3">
+                          <i className="fab fa-html5"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-gray-600">Aventures pour Tous les Goûts</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li className="py-2">
+                    <div className="flex items-center">
+                      <div>
+                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-200 mr-3">
+                          <i className="far fa-paper-plane"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 className="text-gray-600">Bien être au coeur de la nature</h4>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-10 sm:pb-0 pt-4 sm:pt-0 relative block bg-gray-900">
+        <div
+          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+          style={{ height: "80px" }}
+        >
+          <svg
+            className="absolute bottom-0 overflow-hidden"
+            xmlns="http://www.w3.org/2000/svg"
+            preserveAspectRatio="none"
+            version="1.1"
+            viewBox="0 0 2560 100"
+            x="0"
+            y="0"
+          >
+            <polygon
+              className="text-gray-900 fill-current"
+              points="2560 0 2560 100 0 100"
+            ></polygon>
+          </svg>
+        </div>
+
+        <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
+          <div className="flex flex-wrap text-center justify-center">
+            <div className="w-full lg:w-6/12 px-4">
+              <h2 className="text-4xl font-semibold text-white">
+                Construisez votre Aventure
+              </h2>
+              <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+                Chez Terrain Confus vous pouvez construire votre propre aventure. Le meilleur choix que vous puissiez faire est de venir chez nous.
+              </p>
+            </div>
+          </div>
+          <div className="flex flex-wrap mt-12 justify-center">
+            <div className="w-full lg:w-3/12 px-4 text-center">
+              <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+                <i className="fas fa-medal text-xl"></i>
+              </div>
+              <h6 className="text-xl mt-5 font-semibold text-white">
+                Services d'Excellence
+              </h6>
+              <p className="mt-2 mb-4 text-gray-500">
+                Nous vous proposons une gamme de services conçus pour rendre votre séjour inoubliable. De l'accueil chaleureux à l'assistance personnalisée, chaque détail est soigneusement pensé pour votre confort et votre plaisir.
+              </p>
+            </div>
+            <div className="w-full lg:w-3/12 px-4 text-center">
+              <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+                <i className="fas fa-poll text-xl"></i>
+              </div>
+              <h5 className="text-xl mt-5 font-semibold text-white">
+                Développez Votre Expérience
+              </h5>
+              <p className="mt-2 mb-4 text-gray-500">
+                Nos activités variées et nos équipements de qualité sont là pour enrichir votre séjour. Que ce soit à travers nos sentiers de randonnée, nos zones de détente, ou nos aventures palpitantes, chaque moment passé chez nous est une opportunité de grandir et de s'épanouir.
+              </p>
+            </div>
+            <div className="w-full lg:w-3/12 px-4 text-center">
+              <div className="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
+                <i className="fas fa-lightbulb text-xl"></i>
+              </div>
+              <h5 className="text-xl mt-5 font-semibold text-white">
+                Prêt pour le Décollage
+              </h5>
+              <p className="mt-2 mb-4 text-gray-500">
+                Le moment est venu de sortir de votre routine et de découvrir ce que Terrain Confus a à offrir. Réservez votre séjour dès maintenant et préparez-vous à vivre des moments inoubliables au cœur de la nature.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-gray-900">
+        <div className="max-w-screen-xl px-4 pb-8 mx-auto lg:pb-24 lg:px-6 ">
+          <h2 className="mb-6 text-3xl font-extrabold tracking-tight text-center text-gray-900 lg:mb-8 lg:text-3xl dark:text-white">Questions les plus fréquemment posées</h2>
+          <div className="max-w-screen-md mx-auto">
+            <div id="accordion-flush" data-accordion="collapse" data-active-classes="bg-white dark:bg-gray-900 text-gray-900 dark:text-white" data-inactive-classes="text-gray-500 dark:text-gray-400">
+              <h3 id="accordion-flush-heading-1">
+                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-900 bg-white border-b border-gray-200 dark:border-gray-700 dark:bg-gray-900 dark:text-white" data-accordion-target="#accordion-flush-body-1" aria-expanded="true" aria-controls="accordion-flush-body-1">
+                  <span>Quelles sont les activités disponibles à Terrain Confus ?</span>
+                  <svg data-accordion-icon="" className="w-6 h-6 rotate-180 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                </button>
+              </h3>
+              <div id="accordion-flush-body-1" className="" aria-labelledby="accordion-flush-heading-1">
+                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
+                  <p className="mb-2 text-gray-500 dark:text-gray-400">Nous offrons une variété d'activités pour tous les goûts, y compris la randonnée, le VTT, l'escalade, le kayak, les séances de yoga en plein air, et bien plus encore. Vous trouverez toujours quelque chose qui correspond à vos envies d'aventure ou de détente.</p>
+                </div>
+              </div>
+              <h3 id="accordion-flush-heading-2">
+                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
+                  <span>Quels types d'hébergement proposez-vous ?</span>
+                  <svg data-accordion-icon="" className="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                </button>
+              </h3>
+              <div id="accordion-flush-body-2" className="hidden" aria-labelledby="accordion-flush-heading-2">
+                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
+                  <p className="mb-2 text-gray-500 dark:text-gray-400">Nous proposons différents types d'hébergement, allant des cabanes écologiques aux tentes de luxe en passant par les lodges confortables. Tous nos hébergements sont conçus pour vous offrir un maximum de confort tout en respectant l'environnement.</p>
+                </div>
+              </div>
+              <h3 id="accordion-flush-heading-3">
+                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-3" aria-expanded="false" aria-controls="accordion-flush-body-3">
+                  <span>Comment puis-je réserver mon séjour à Terrain Confus ?</span>
+                  <svg data-accordion-icon="" className="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                </button>
+              </h3>
+              <div id="accordion-flush-body-3" className="hidden" aria-labelledby="accordion-flush-heading-3">
+                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
+                  <p className="mb-2 text-gray-500 dark:text-gray-400">Vous pouvez facilement réserver votre séjour en ligne sur notre site web. Il vous suffit de visiter notre page de réservation, de sélectionner vos dates de séjour et le type d'hébergement souhaité, puis de suivre les instructions pour finaliser votre réservation.</p>
+                </div>
+              </div>
+              <h3 id="accordion-flush-heading-4">
+                <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-4" aria-expanded="false" aria-controls="accordion-flush-body-4">
+                  <span>Y a-t-il des options de restauration sur place ?</span>
+                  <svg data-accordion-icon="" className="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                </button>
+              </h3>
+              <div id="accordion-flush-body-4" className="hidden" aria-labelledby="accordion-flush-heading-4">
+                <div className="py-5 border-b border-gray-200 dark:border-gray-700">
+                  <p className="mb-2 text-gray-500 dark:text-gray-400">Oui, nous avons un restaurant sur place qui propose une cuisine délicieuse avec des ingrédients frais et locaux. Nous offrons également des options végétariennes, véganes et sans gluten pour répondre à toutes les préférences alimentaires.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  );
 }
