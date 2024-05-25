@@ -20,7 +20,7 @@ export default function Home() {
                   Votre havre de paix en pleine nature
                 </h1>
                 <p className="mt-4 text-md sm:text-lg text-gray-300">
-                  Loin du tumulte du quotidien, découvrez un havre de paix où vous pourrez vous ressourcer en pleine nature. Que vous soyez à la recherche d'une escapade paisible en famille ou d'une aventure exaltante entre amis, Terrain Confus a quelque chose à offrir à chacun.
+                  Loin du tumulte du quotidien, découvrez un havre de paix où vous pourrez vous ressourcer en pleine nature. Que vous soyez à la recherche d&apos;une escapade paisible en famille ou d&apos;une aventure exaltante entre amis, Terrain Confus a quelque chose à offrir à chacun.
                 </p>
               </div>
             </div>
@@ -57,7 +57,7 @@ export default function Home() {
                   <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                     <i className="fas fa-award"></i>
                   </div>
-                  <h6 className="text-xl font-semibold">Profitez d'une large gamme d'activités</h6>
+                  <h6 className="text-xl font-semibold">Profitez d&apos;une large gamme d&apos;activités</h6>
                   <p className="mt-2 mb-4 text-gray-600">
                     En plein air : randonnée, vélo, kayak, escalade... ou accordez-vous un moment de détente au spa ou au bord de la piscine.
                   </p>
@@ -105,19 +105,19 @@ export default function Home() {
                 <i className="fas fa-user-friends text-xl"></i>
               </div>
               <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Découvrez un monde d'aventures à Terrain Confus
+                Découvrez un monde d&apos;aventures à Terrain Confus
               </h3>
               <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                Terrain Confus est bien plus qu'un simple lieu de villégiature. C'est un havre de paix où vous pourrez vous reconnecter avec la nature et vivre des aventures extraordinaires.
+                Terrain Confus est bien plus qu&apos;un simple lieu de villégiature. C&apos;est un havre de paix où vous pourrez vous reconnecter avec la nature et vivre des aventures extraordinaires.
               </p>
               <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-                Que vous soyez à la recherche d'une escapade en famille ou d'une virée entre amis, nous avons tout ce qu'il vous faut pour vous créer un séjour inoubliable.
+                Que vous soyez à la recherche d&apos;une escapade en famille ou d&apos;une virée entre amis, nous avons tout ce qu&apos;il vous faut pour vous créer un séjour inoubliable.
               </p>
               <a
                 href="#"
                 className="font-bold text-gray-800 mt-8"
               >
-                Réservez votre séjour dès aujourd'hui !
+                Réservez votre séjour dès aujourd&apos;hui !
               </a>
             </div>
 
@@ -148,7 +148,7 @@ export default function Home() {
                     Des services de qualités
                   </h4>
                   <p className="text-md font-light mt-2 text-white">
-                    Évadez-vous dans un monde d'aventures et de détente à Terrain Confus, où nature, activités et relaxation se rencontrent.
+                    Évadez-vous dans un monde d&apos;aventures et de détente à Terrain Confus, où nature, activités et relaxation se rencontrent.
                   </p>
                 </blockquote>
               </div>
@@ -283,10 +283,10 @@ export default function Home() {
                 <i className="fas fa-medal text-xl"></i>
               </div>
               <h6 className="text-xl mt-5 font-semibold text-white">
-                Services d'Excellence
+                Services d&apos;Excellence
               </h6>
               <p className="mt-2 mb-4 text-gray-500">
-                Nous vous proposons une gamme de services conçus pour rendre votre séjour inoubliable. De l'accueil chaleureux à l'assistance personnalisée, chaque détail est soigneusement pensé pour votre confort et votre plaisir.
+                Nous vous proposons une gamme de services conçus pour rendre votre séjour inoubliable. De l&apos;accueil chaleureux à l&apos;assistance personnalisée, chaque détail est soigneusement pensé pour votre confort et votre plaisir.
               </p>
             </div>
             <div className="w-full lg:w-3/12 px-4 text-center">
@@ -297,7 +297,7 @@ export default function Home() {
                 Développez Votre Expérience
               </h5>
               <p className="mt-2 mb-4 text-gray-500">
-                Nos activités variées et nos équipements de qualité sont là pour enrichir votre séjour. Que ce soit à travers nos sentiers de randonnée, nos zones de détente, ou nos aventures palpitantes, chaque moment passé chez nous est une opportunité de grandir et de s'épanouir.
+                Nos activités variées et nos équipements de qualité sont là pour enrichir votre séjour. Que ce soit à travers nos sentiers de randonnée, nos zones de détente, ou nos aventures palpitantes, chaque moment passé chez nous est une opportunité de grandir et de s&apos;épanouir.
               </p>
             </div>
             <div className="w-full lg:w-3/12 px-4 text-center">
@@ -328,18 +328,18 @@ export default function Home() {
               </h3>
               <div id="accordion-flush-body-1" className="" aria-labelledby="accordion-flush-heading-1">
                 <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                  <p className="mb-2 text-gray-500 dark:text-gray-400">Nous offrons une variété d'activités pour tous les goûts, y compris la randonnée, le VTT, l'escalade, le kayak, les séances de yoga en plein air, et bien plus encore. Vous trouverez toujours quelque chose qui correspond à vos envies d'aventure ou de détente.</p>
+                  <p className="mb-2 text-gray-500 dark:text-gray-400">Nous offrons une variété d&apos;activités pour tous les goûts, y compris la randonnée, le VTT, l&apos;escalade, le kayak, les séances de yoga en plein air, et bien plus encore. Vous trouverez toujours quelque chose qui correspond à vos envies d&apos;aventure ou de détente.</p>
                 </div>
               </div>
               <h3 id="accordion-flush-heading-2">
                 <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
-                  <span>Quels types d'hébergement proposez-vous ?</span>
+                  <span>Quels types d&apos;hébergement proposez-vous ?</span>
                   <svg data-accordion-icon="" className="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                 </button>
               </h3>
               <div id="accordion-flush-body-2" className="hidden" aria-labelledby="accordion-flush-heading-2">
                 <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                  <p className="mb-2 text-gray-500 dark:text-gray-400">Nous proposons différents types d'hébergement, allant des cabanes écologiques aux tentes de luxe en passant par les lodges confortables. Tous nos hébergements sont conçus pour vous offrir un maximum de confort tout en respectant l'environnement.</p>
+                  <p className="mb-2 text-gray-500 dark:text-gray-400">Nous proposons différents types d&apos;hébergement, allant des cabanes écologiques aux tentes de luxe en passant par les lodges confortables. Tous nos hébergements sont conçus pour vous offrir un maximum de confort tout en respectant l&apos;environnement.</p>
                 </div>
               </div>
               <h3 id="accordion-flush-heading-3">
@@ -350,7 +350,7 @@ export default function Home() {
               </h3>
               <div id="accordion-flush-body-3" className="hidden" aria-labelledby="accordion-flush-heading-3">
                 <div className="py-5 border-b border-gray-200 dark:border-gray-700">
-                  <p className="mb-2 text-gray-500 dark:text-gray-400">Vous pouvez facilement réserver votre séjour en ligne sur notre site web. Il vous suffit de visiter notre page de réservation, de sélectionner vos dates de séjour et le type d'hébergement souhaité, puis de suivre les instructions pour finaliser votre réservation.</p>
+                  <p className="mb-2 text-gray-500 dark:text-gray-400">Vous pouvez facilement réserver votre séjour en ligne sur notre site web. Il vous suffit de visiter notre page de réservation, de sélectionner vos dates de séjour et le type d&apos;hébergement souhaité, puis de suivre les instructions pour finaliser votre réservation.</p>
                 </div>
               </div>
               <h3 id="accordion-flush-heading-4">
