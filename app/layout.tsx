@@ -9,7 +9,6 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Terrain confus",
   description: "Bienvenue à Terrain Confus, un lieu unique où la nature, l'aventure et la détente se rencontrent. Que vous soyez à la recherche d'une escapade paisible ou d'une aventure exaltante, notre domaine a quelque chose à offrir à chacun.",
-
 };
 
 export default function RootLayout({
