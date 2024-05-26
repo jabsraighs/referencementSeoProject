@@ -8,8 +8,19 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Terrain confus",
-  description: "Bienvenue à Terrain Confus, un lieu unique où la nature, l'aventure et la détente se rencontrent. Que vous soyez à la recherche d'une escapade paisible ou d'une aventure exaltante, notre domaine a quelque chose à offrir à chacun.",
+  title: "Terrain confus : Votre havre de paix en pleine nature, loin du quotidien",
+  description: "Évadez-vous dans un havre de paix où nature, aventure et détente se rencontrent. Séjour inoubliable pour tous: escapade paisible ou aventure exaltante.",
+  alternates: {
+    canonical: "https://www.unterrainconfus.fr",
+    languages: {
+      fr: "https://www.unterrainconfus.fr"
+    }
+  },
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+  },
 };
 
 export default function RootLayout({

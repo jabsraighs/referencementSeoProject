@@ -1,8 +1,0 @@
-User-agent: *
-Disallow: /repertoire-prive/
-Disallow: /page-privee.html
-
-User-agent: Googlebot
-Disallow:
-
-Sitemap: https://www.unterrainconfus.fr//sitemap.xml
