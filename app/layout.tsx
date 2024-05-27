@@ -11,11 +11,22 @@ export const metadata: Metadata = {
   title: "Terrain confus : Votre havre de paix en pleine nature, loin du quotidien",
   description: "Évadez-vous dans un havre de paix où nature, aventure et détente se rencontrent. Séjour inoubliable pour tous: escapade paisible ou aventure exaltante.",
   alternates: {
-    canonical: "https://www.unterrainconfus.fr",
+    canonical: `${process.env.WEBSITE_URL}`,
     languages: {
-      fr: "https://www.unterrainconfus.fr"
+      fr: `${process.env.WEBSITE_URL}`
     }
-  }
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
 };
 
 export default function RootLayout({
