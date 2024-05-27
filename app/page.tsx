@@ -184,7 +184,7 @@ export default function Home() {
           <div className="items-center flex flex-wrap">
             <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
               <img
-                alt="..."
+                alt="sentier dans la forêt entouré d'arbres au couleurs d'un vert luxuriant"
                 className="max-w-full rounded-lg shadow-lg"
                 src="https://images.unsplash.com/photo-1519821172144-4f87d85de2a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9yZXN0fGVufDB8MXwwfHx8MA%3D%3D"
               />
