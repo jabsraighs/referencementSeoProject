@@ -55,203 +55,185 @@ export default function Home() {
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
                   <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
-                    <i className="fas fa-award"></i>
+                    <i className="fa-solid fa-address-book"></i>
                   </div>
-                  <h6 className="text-xl font-semibold">Profitez d&apos;une large gamme d&apos;activités</h6>
-                  <p className="mt-2 mb-4 text-gray-600">
-                    En plein air : randonnée, vélo, kayak, escalade... ou accordez-vous un moment de détente au spa ou au bord de la piscine.
-                  </p>
+                  <h6 className="text-xl font-semibold"> Terrain Confus </h6>
+                  <ul className="list-none mt-6">
+                    <li className="py-2">
+                        <div className="flex items-center">
+                            <div>
+                                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-200 mr-3">
+                                    <i className="fa-solid fa-location-dot"></i>
+                                </span>
+                            </div>
+                            <div>
+                                <h4 className="text-gray-600"> Nous retrouver </h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="py-2">
+                        <div className="flex items-center">
+                            <div>
+                                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-200 mr-3">
+                                    <i className="fa-solid fa-envelope"></i>
+                                </span>
+                            </div>
+                            <div>
+                                <h4 className="text-gray-600"> unTerrainConfus@gmail.com </h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="py-2">
+                        <div className="flex items-center">
+                            <div>
+                                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-200 mr-3">
+                                <i className="fa-solid fa-phone-volume"></i>
+                                </span>
+                            </div>
+                            <div>
+                                <h4 className="text-gray-600"> (+33) 655 2645 33 </h4>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-
-            <div className="w-full md:w-4/12 px-4 text-center">
+            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-gray-400">
-                    <i className="fas fa-retweet"></i>
+                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                    <i className="fa-regular fa-circle-question"></i>
                   </div>
-                  <h6 className="text-xl font-semibold">
-                    Hébergement confortable et convivial
-                  </h6>
-                  <p className="mt-2 mb-4 text-gray-600">
-                    Bungalows, chalets, tentes... trouvez le logement qui correspond le mieux à vos besoins et à votre budget.
-                  </p>
+                  <h6 className="text-xl font-semibold"> Liens Rapides </h6>
+                  <ul className="list-none mt-6">
+                    <li className="py-2">
+                        <div className="flex items-center">
+                            <div>
+                                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-200 mr-3">
+                               <i className="fa-solid fa-user-group"></i>
+                                </span>
+                            </div>
+                            <div>
+                                <h4 className="text-gray-600"> Services </h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="py-2">
+                        <div className="flex items-center">
+                            <div>
+                                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-200 mr-3">
+                                    <i className="fa-solid fa-calendar-days"></i>
+                                </span>
+                            </div>
+                            <div>
+                                <h4 className="text-gray-600"> Reservation </h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="py-2">
+                        <div className="flex items-center">
+                            <div>
+                                <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-200 mr-3">
+                                    <i className="fa-solid fa-comments"></i>                                </span>
+                            </div>
+                            <div>
+                                <h4 className="text-gray-600"> FAQ  </h4>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
-
-            <div className="pt-6 w-full md:w-4/12 px-4 text-center">
+            <div className="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
               <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
                 <div className="px-4 py-5 flex-auto">
-                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-green-400">
-                    <i className="fa-brands fa-intercom"></i>
+                  <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
+                    <i className="fa-solid fa-business-time"></i>
                   </div>
-                  <h6 className="text-xl font-semibold">
-                    Un accueil chaleureux et personnalisé
-                  </h6>
-                  <p className="mt-2 mb-4 text-gray-600">
-                    Notre équipe passionnée vous attend. Nous sommes là pour vous aider à créer un séjour inoubliable.
-                  </p>
+                  <h6 className="text-xl font-semibold"> heures d&apos;ouvertures </h6>
+                  <ul className="list-none mt-6">
+                    <li className="py-2">
+                        <div className="flex items-center">
+                            
+                            <div>
+                                <h4 className="text-gray-600"> Lundi - vendredi </h4>
+                            </div>
+                             <div> 
+                                <i className="fa-solid fa-clock"></i> 
+                            </div>
+                            <div>
+                                   <h4> 09:00 H - 13:00 H</h4>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="py-2">
+                        <div className="flex items-center ">
+                            
+                            <div >
+                                <h4 className="text-gray-600"> Samedi - Dimanche </h4>  
+                                
+                            </div>
+                            <div> 
+                                <i className="fa-solid fa-clock"></i> 
+                            </div>
+                            <div>
+                                   <h4> 09:00 H - 13:00 H</h4>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li className="py-2">
+                        <div className="flex items-center">
+
+                            <div>
+                                <h4 className="text-gray-600"> Vacances </h4>
+                            </div>
+                             <div> 
+                                <i className="fa-solid fa-clock"></i> 
+                            </div>
+                            <div>
+                                   <h4> 09:00 H - 13:00 H</h4>
+                            </div>
+                        </div>
+                    </li>
+                  </ul>
                 </div>
               </div>
-            </div>
-          </div>
-
-
-          <div className="flex flex-wrap items-center mt-32">
-            <div className="w-full md:w-5/12 px-4 mr-auto ml-auto">
-              <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
-                <i className="fas fa-user-friends text-xl"></i>
-              </div>
-              <h3 className="text-3xl mb-2 font-semibold leading-normal">
-                Découvrez un monde d&apos;aventures à Terrain Confus
-              </h3>
-              <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-                Terrain Confus est bien plus qu&apos;un simple lieu de villégiature. C&apos;est un havre de paix où vous pourrez vous reconnecter avec la nature et vivre des aventures extraordinaires.
-              </p>
-              <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-gray-700">
-                Que vous soyez à la recherche d&apos;une escapade en famille ou d&apos;une virée entre amis, nous avons tout ce qu&apos;il vous faut pour vous créer un séjour inoubliable.
-              </p>
-              <a
-                href="#"
-                className="font-bold text-gray-800 mt-8"
-              >
-                Réservez votre séjour dès aujourd&apos;hui !
-              </a>
-            </div>
-
-            <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
-              <div className="relative flex flex-col min-w-0 break-wordss w-full mb-6 shadow-lg rounded-lg bg-gray-600">
-                <img
-                  alt="..."
-                  src="https://images.unsplash.com/photo-1534570122623-99e8378a9aa7?w=600&h=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1bW1lcnxlbnwwfHwwfHx8MA%3D%3D"
-                  className="w-full align-middle rounded-t-lg"
-                />
-                <blockquote className="relative p-8 mb-4">
-                  <svg
-                    preserveAspectRatio="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 583 95"
-                    className="absolute left-0 w-full block"
-                    style={{
-                      height: "95px",
-                      top: "-94px"
-                    }}
-                  >
-                    <polygon
-                      points="-30,95 583,95 583,65"
-                      className="text-gray-600 fill-current"
-                    ></polygon>
-                  </svg>
-                  <h4 className="text-xl font-bold text-white">
-                    Des services de qualités
-                  </h4>
-                  <p className="text-md font-light mt-2 text-white">
-                    Évadez-vous dans un monde d&apos;aventures et de détente à Terrain Confus, où nature, activités et relaxation se rencontrent.
-                  </p>
-                </blockquote>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section className="relative py-20">
-        <div
-          className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style={{ height: "80px" }}
-        >
-          <svg
-            className="absolute bottom-0 overflow-hidden"
-            xmlns="http://www.w3.org/2000/svg"
-            preserveAspectRatio="none"
-            version="1.1"
-            viewBox="0 0 2560 100"
-            x="0"
-            y="0"
-          >
-            <polygon
-              className="text-white fill-current"
-              points="2560 0 2560 100 0 100"
-            ></polygon>
-          </svg>
-        </div>
-
-        <div className="container mx-auto px-4">
-          <div className="items-center flex flex-wrap">
-            <div className="w-full md:w-4/12 ml-auto mr-auto px-4">
-              <img
-                alt="sentier dans la forêt entouré d'arbres au couleurs d'un vert luxuriant"
-                className="max-w-full rounded-lg shadow-lg"
-                src="https://images.unsplash.com/photo-1519821172144-4f87d85de2a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9yZXN0fGVufDB8MXwwfHx8MA%3D%3D"
-              />
             </div>
             <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
               <div className="md:pr-12">
-                <div className="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-300">
-                  <i className="fas fa-rocket text-xl"></i>
-                </div>
+               
                 <h3 className="text-3xl font-semibold">
-                  Une expérience unique
+                 Pour toute question ou demande d&apos;information.
                 </h3>
                 <p className="mt-4 text-lg leading-relaxed text-gray-600">
-                  Chez Terrain Confus, nous croyons que chaque visiteur mérite une expérience exceptionnelle. Que vous cherchiez à vous échapper de la routine quotidienne, à explorer des paysages naturels magnifiques, ou à vivre des aventures palpitantes, notre espace vous offre tout cela et bien plus encore.
+                  N&apos;hésitez pas à nous contacter. Vous pouvez nous joindre par téléphone du lundi au vendredi, de 9h à 18h, ou par email. Vous pouvez également remplir notre formulaire de contact en ligne, disponible sur cette page. Notre équipe se fera un plaisir de vous répondre dans les plus brefs délais et de vous accompagner dans votre projet. Merci de votre confiance et à bientôt sur unterrainconfus.fr 
                 </p>
-                <ul className="list-none mt-6">
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-200 mr-3">
-                          <i className="fas fa-fingerprint"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-gray-600">
-                          Nature Préservée et Sentiers Pittoresques
-                        </h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-200 mr-3">
-                          <i className="fab fa-html5"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-gray-600">Aventures pour Tous les Goûts</h4>
-                      </div>
-                    </div>
-                  </li>
-                  <li className="py-2">
-                    <div className="flex items-center">
-                      <div>
-                        <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-gray-600 bg-gray-200 mr-3">
-                          <i className="far fa-paper-plane"></i>
-                        </span>
-                      </div>
-                      <div>
-                        <h4 className="text-gray-600">Bien être au coeur de la nature</h4>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+                </div>
             </div>
+            
+
+
           </div>
+          
+          
+
+
+          
         </div>
       </section>
 
+      
+     
       <section className="pb-10 sm:pb-0 pt-4 sm:pt-0 relative block bg-gray-900">
         <div
           className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style={{ height: "80px" }}
         >
           <svg
-            className="absolute bottom-0 overflow-hidden"
+           
             xmlns="http://www.w3.org/2000/svg"
             preserveAspectRatio="none"
             version="1.1"
@@ -333,7 +315,7 @@ export default function Home() {
               </div>
               <h3 id="accordion-flush-heading-2">
                 <button type="button" className="flex items-center justify-between w-full py-5 font-medium text-left text-gray-500 border-b border-gray-200 dark:border-gray-700 dark:text-gray-400" data-accordion-target="#accordion-flush-body-2" aria-expanded="false" aria-controls="accordion-flush-body-2">
-                  <span>Quels types d&apos;hébergement proposez-vous ?</span>
+                  <span> Quels types d&apos;hébergement proposez-vous ? </span>
                   <svg data-accordion-icon="" className="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                 </button>
               </h3>
