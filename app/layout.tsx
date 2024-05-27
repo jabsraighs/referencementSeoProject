@@ -15,12 +15,7 @@ export const metadata: Metadata = {
     languages: {
       fr: "https://www.unterrainconfus.fr"
     }
-  },
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-  },
+  }
 };
 
 export default function RootLayout({
@@ -32,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Script src="https://kit.fontawesome.com/2b714f5d03.js" crossOrigin="anonymous"></Script>
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
+        <Script strategy="beforeInteractive" src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
       </head>
       <body className={inter.className}>
         <Navbar transparent />
