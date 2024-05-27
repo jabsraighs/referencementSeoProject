@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    host: "https://www.unterrainconfus.fr",
-    sitemap: "https://www.unterrainconfus.fr/sitemap.xml",
+    host: process.env.WEBSITE_URL,
+    sitemap: `${process.env.WEBSITE_URL}/sitemap.xml`,
   }
 }
