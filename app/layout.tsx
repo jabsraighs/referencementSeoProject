@@ -11,15 +11,21 @@ export const metadata: Metadata = {
   title: "Terrain confus : Votre havre de paix en pleine nature, loin du quotidien",
   description: "Évadez-vous dans un havre de paix où nature, aventure et détente se rencontrent. Séjour inoubliable pour tous: escapade paisible ou aventure exaltante.",
   alternates: {
-    canonical: "https://www.unterrainconfus.fr",
+    canonical: `${process.env.WEBSITE_URL}`,
     languages: {
-      fr: "https://www.unterrainconfus.fr"
+      fr: `${process.env.WEBSITE_URL}`
     }
   },
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 
@@ -32,7 +38,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <Script src="https://kit.fontawesome.com/2b714f5d03.js" crossOrigin="anonymous"></Script>
-        <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
+        <Script strategy="beforeInteractive" src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
       </head>
       <body className={inter.className}>
         <Navbar transparent />
