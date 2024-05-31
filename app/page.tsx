@@ -186,7 +186,7 @@ export default function Home() {
               <img
                 alt="sentier dans la forêt entouré d'arbres au couleurs d'un vert luxuriant"
                 className="max-w-full rounded-lg shadow-lg"
-                src="https://res.cloudinary.com/webspeedtest/image/upload/c_limit,dpr_1,f_webp,fl_awebp,h_581,q_auto,w_384/v1717194741/t1howjnydabsiyj9qjec.webp"
+                src="https://res.cloudinary.com/webspeedtest/image/upload/c_limit,dpr_1,f_avif,h_581,q_auto,w_384/v1717195021/bkyyomsvstkmzcdf20hj.avif"
               />
             </div>
             <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
@@ -273,7 +273,7 @@ export default function Home() {
               <h2 className="text-4xl font-semibold text-white">
                 Construisez votre Aventure
               </h2>
-              <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+              <p className="text-lg leading-relaxed mt-4 mb-4 text-gray-700">
                 Chez Terrain Confus vous pouvez construire votre propre aventure. Le meilleur choix que vous puissiez faire est de venir chez nous.
               </p>
             </div>
