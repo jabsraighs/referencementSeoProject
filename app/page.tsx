@@ -125,8 +125,8 @@ export default function Home() {
             <div className="w-full md:w-4/12 px-4 mr-auto ml-auto">
               <div className="relative flex flex-col min-w-0 break-wordss w-full mb-6 shadow-lg rounded-lg bg-gray-600">
                 <img
-                  alt="..."
-                  src="https://images.unsplash.com/photo-1534570122623-99e8378a9aa7?w=600&h=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHN1bW1lcnxlbnwwfHwwfHx8MA%3D%3D"
+                  alt="sentier de sable menant à une plage avec cue sur la mer"
+                  src="https://res.cloudinary.com/webspeedtest/image/upload/c_limit,dpr_1,h_384,q_auto,w_384/v1717194741/unwyvgguqvktq3y4hel2.avif"
                   className="w-full align-middle rounded-t-lg"
                 />
                 <blockquote className="relative p-8 mb-4">
@@ -186,7 +186,7 @@ export default function Home() {
               <img
                 alt="sentier dans la forêt entouré d'arbres au couleurs d'un vert luxuriant"
                 className="max-w-full rounded-lg shadow-lg"
-                src="https://images.unsplash.com/photo-1519821172144-4f87d85de2a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zm9yZXN0fGVufDB8MXwwfHx8MA%3D%3D"
+                src="https://res.cloudinary.com/webspeedtest/image/upload/c_limit,dpr_1,f_webp,fl_awebp,h_581,q_auto,w_384/v1717194741/t1howjnydabsiyj9qjec.webp"
               />
             </div>
             <div className="w-full md:w-5/12 ml-auto mr-auto px-4">
